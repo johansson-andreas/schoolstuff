@@ -2,10 +2,12 @@
 {
     width: 275px;
     height: 400px;
-    background-color: rgba(218, 75, 210, 0.548);
+    background-color: rgba(235, 87, 29, 0.548);
     border-radius: 15px;
-    margin: 10vh auto 0 auto;
+    margin: 10vh auto;
     overflow: hidden;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.2);
 }
 .cardTitle
 {
@@ -19,6 +21,6 @@
 }
 .cardParagraph
 {
-    padding: 0px 10px 0px 10px;
+    padding: 0px 10px;
 
 }
