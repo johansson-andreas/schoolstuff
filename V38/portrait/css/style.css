@@ -1,0 +1,66 @@
+.product {
+    width: 30vh;
+    aspect-ratio: 1 / 2;
+    background-color: gainsboro;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 20vh;
+}
+img {
+
+    height: 35%;
+    aspect-ratio:initial;
+    margin-top:auto;
+}
+figcaption
+{
+    align-self: flex-end;
+    color: white;
+    margin-top:auto;
+
+}
+figure
+{
+    height: 50%;
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    width: 100%;
+    margin:0;
+}
+section {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    padding: 30px;
+}
+.price
+{
+    margin-top:auto;
+    margin-left:auto;
+    font-size:30px;
+    font-weight: 900;
+}
+h1,h2 {
+    margin: 0;
+}
+h1 {
+    font-size: 25px;
+    font-weight:900;
+}
+h2 {
+    font-size: 18px;
+}
+p {
+    font-size: 15px;
+}
+body {
+    font-family: sans-serif;
+}
+* {
+    box-sizing: border-box; 
+}
