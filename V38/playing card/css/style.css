@@ -10,7 +10,6 @@
     flex-direction: column;
     border: 5px solid white;
     padding: 10px;
-    font-size: 50px;
     color: red;
     align-items: center;
     justify-content: space-between;
@@ -21,6 +20,10 @@
     justify-content: center;
     align-items: center;
     font-size:25px;
+}
+.card:not(aside){
+    font-size: 90px;;
+
 }
 .card * span {
         font-size: 27px;
