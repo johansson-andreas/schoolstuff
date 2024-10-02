@@ -1,0 +1,41 @@
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+nav {
+    width: 300px;
+    height: 150px;
+    background-color:blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    border-bottom: red 2px solid;
+}
+
+@media (min-width: 600px) {
+    nav {
+        width: 600px;
+        background-color: wheat;
+        flex-direction: row;
+
+    }
+    nav a {
+        color: gray;
+    }
+}
+
+@media (min-width: 1600px) {
+    nav {
+        width: 100%;
+        justify-content: end;
+        gap: 20px;
+        padding-right: 50px;
+    }
+}
