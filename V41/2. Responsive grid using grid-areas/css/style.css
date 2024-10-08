@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --red: #FF454D;
+    --black: #00035f;
+  }
+
+* {
+    box-sizing:border-box;
+    margin: 0;
+}
+
+body {
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 10px;
+    font-weight: 600px;
+    color: var(--black); 
+    margin: 100px;  
+}
+.container > *
+{
+    background-color: lightblue;
+    min-height: 50px;
+    min-width: 100px;
+}
+
+
+
+.container {
+   display: grid;
+   grid-template-areas: "header" "nav" "main" "sidebar" "ads" "footer";
+gap: 10px;
+}
+header {
+    grid-area: header;
+}
+nav {
+    grid-area: nav;
+}
+main {
+    grid-area: main;
+}
+.sidebar {
+    grid-area: sidebar;
+}
+.ads {
+    grid-area: ads;
+}
+footer {
+    grid-area:footer;
+}
+
+@media (min-width: 900px) {
+    .container {
+        grid-template-areas: "header header" "nav nav" "sidebar main" "ads footer";
+        grid-template-columns: min-content 1fr;
+
+     }
+     
+}
+@media (min-width: 1600px) {
+    .container {
+        grid-template-areas: "header header header header" "sidebar nav nav ads" "sidebar main main ads" "footer footer footer footer";
+     }
+     
+}
